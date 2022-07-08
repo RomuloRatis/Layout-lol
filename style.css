@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container{
+    display: flex;
+}
+
+.games{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: space-evenly;
+    height: 550px;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+ }
+
+ .riot{
+    width: 130px;
+}
+
+h2{
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 5px;
+}
+
+.form{
+    width: 100%;
+}
+
+.login{
+    width: 280px;
+    padding: 12px;
+    background-color: #E8E6E6;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.login::placeholder{
+    font-size: 0.6rem;    
+}
+
+.password{
+    width: 280px;
+    padding: 12px;
+    background-color: #E8E6E6;
+    border: none;
+}
+
+.password::placeholder{
+    font-size: 0.6rem;    
+}
+
+.icones{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.blue{
+    background-color: #2051FF;
+    width: 27%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.facebook{
+    width: 15px;
+    height: 15px;
+}
+
+.red{
+    background-color: #8A0000;
+    width: 27%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.google{
+    width: 15px;
+    height: 15px;
+}
+
+.black{
+    background-color: #000000;
+    width: 27%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.apple{
+    width: 15px;
+    height: 15px;
+}
+
+.checkbox{
+    display: flex;
+    width: 100%;
+}
+
+.lembrar-login{
+    font-size: 0.8rem;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    background-color: #FFC9D3;
+    align-self: center;
+    width: 40px;
+    height: 35px;
+    border: none;
+    border-radius: 7px;
+}
+
+.sessao{
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+}
+
+.paragrafos{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    cursor: pointer;
+}
+
+.nova-conta{
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    align-self: center;
+}
+
+.fig-lol{
+    width: 100%;
+}
+
+.lol{
+    width: 100%; 
+}
+
+@media(max-width: 1300px){
+
+    .lol{
+        width: 100%;
+        height: 100%;
+    }   
+}
+
+@media(max-width: 1150px){
+
+    .container{
+        flex-direction: column-reverse;
+    }
+
+    .games{
+        align-items: center;
+    }
+
+    .icones{
+        width: 280px;
+    }
+}
